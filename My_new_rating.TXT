@@ -1,0 +1,20 @@
+﻿-ais = MS Office Pro Plus*
+-aiv = MS Office Visio*
+-aij = MS Office Project*
+ИЛИ
+-aiw = Word+Excel*
+-aie = Word+Excel+Outlook*
+-aip = Word+Excel+PowerPoint*
+-aio = Word+Excel+PowerPoint+Outlook*
+* = Чувствительно к регистру, например:
+-aie = ВИДИМАЯ установка Word+Excel+Outlook
+-aiE = СКРЫТАЯ установка Word+Excel+Outlook
+Дополнительные ключи:
+-aic = скрытая установка Classic Menu
+-aib = удалить Office 2016
+-gm2 = скрыть диалог распаковки файлов
+Примеры использования
+-ais = видимая установка
+-aiS = скрытая установка
+-aisv = видимая установка + Visio
+-aiPV = скрытая установка Word+Excel+PowerPoint+Visio
